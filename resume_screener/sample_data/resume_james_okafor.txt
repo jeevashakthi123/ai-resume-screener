@@ -1,0 +1,55 @@
+JAMES OKAFOR
+Data Engineer
+james.okafor@gmail.com | linkedin.com/in/jamesokafor
+New York, NY
+
+SUMMARY
+-------
+Data Engineer with 4 years of experience designing and maintaining large-scale data
+pipelines. Proficient in Python, SQL, Apache Spark, and cloud platforms. Transitioning
+into machine learning engineering with growing expertise in scikit-learn and basic
+NLP techniques.
+
+SKILLS
+------
+Core:          Python, SQL, Bash
+Data:          Apache Spark, Hadoop, Hive, Kafka, Pandas, NumPy
+Cloud:         AWS (S3, Glue, Redshift, EMR), GCP (BigQuery, Dataflow)
+Databases:     PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch
+ML (learning): Scikit-learn, basic TF-IDF, logistic regression, random forests
+DevOps:        Docker, Git, Airflow, dbt, CI/CD basics
+Visualisation: Matplotlib, Looker
+
+WORK EXPERIENCE
+---------------
+Senior Data Engineer | FinanceHub                             2021 – Present
+- Architected and maintained ETL pipelines processing 10TB+ daily using Apache Spark.
+- Built real-time streaming pipelines with Apache Kafka and AWS Glue.
+- Designed data warehouse on AWS Redshift; reduced query time by 60%.
+- Collaborated with ML team to productionise scikit-learn models via REST APIs.
+- Managed PostgreSQL and MongoDB databases for 15 microservices.
+- Containerised data services using Docker; automated deployments with CI/CD.
+- Mentored 2 junior data engineers on best practices and code review.
+
+Data Engineer | LogisCo                                       2020 – 2021
+- Built data ingestion pipelines using Apache Airflow and AWS S3.
+- Optimised SQL queries on Redshift reducing report generation time by 45%.
+- Implemented data quality checks and monitoring dashboards using Python.
+
+EDUCATION
+---------
+B.Sc. Computer Science
+New York University, 2019
+
+ADDITIONAL TRAINING
+-------------------
+- Coursera: Machine Learning by Andrew Ng (in progress)
+- Udemy: NLP with Python and NLTK
+- dbt Fundamentals Certification (2022)
+- AWS Certified Data Analytics – Specialty (2021)
+
+PROJECTS
+--------
+- Built a personal NLP project classifying news articles using TF-IDF and logistic
+  regression with scikit-learn (85% accuracy on test set).
+- Open-source contributor to Apache Airflow (bug fixes and documentation).

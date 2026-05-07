@@ -1,0 +1,68 @@
+DR. MICHAEL TORRES
+AI Research Scientist / ML Engineer
+michael.torres@email.com | scholar.google.com/michaeltorres
+Boston, MA (Remote preferred)
+
+PROFESSIONAL PROFILE
+--------------------
+PhD-trained AI Research Scientist with 8 years of experience in machine learning,
+NLP, and deep learning research. Author of 12 peer-reviewed publications in top-tier
+venues (NeurIPS, ICML, ACL). Now transitioning from pure research to industry ML
+Engineering roles. Expert in Python, PyTorch, TensorFlow, and transformer architectures.
+
+CORE COMPETENCIES
+-----------------
+Research & ML:  Deep learning, NLP, transformer models, BERT, GPT, LLaMA,
+                Reinforcement Learning, computer vision, generative AI,
+                knowledge distillation, model quantisation, pruning
+Programming:    Python (expert), C++, MATLAB, R, SQL
+Frameworks:     PyTorch, TensorFlow, Keras, Scikit-learn, HuggingFace, JAX
+MLOps:          MLflow, Docker, Kubernetes, Weights & Biases, Git
+Cloud:          AWS (EC2, S3), GCP (BigQuery, Vertex AI)
+NLP Specific:   TF-IDF, Word2Vec, BERT fine-tuning, named entity recognition,
+                text classification, information extraction, prompt engineering
+
+ACADEMIC EXPERIENCE
+-------------------
+Postdoctoral Researcher | MIT CSAIL                           2021 – 2023
+- Researched efficient transformer architectures; published at NeurIPS 2022 and ICML 2023.
+- Developed knowledge distillation techniques reducing BERT model size by 60% with <2% accuracy loss.
+- Built large-scale NLP pipelines processing Wikipedia and Common Crawl datasets (10TB+).
+- Supervised 3 PhD students on NLP and generative AI projects.
+- Collaborated with industry partners (Google Brain, Meta AI) on research projects.
+
+PhD Research Assistant | CMU Language Technologies Institute  2017 – 2021
+- Dissertation: "Efficient NLP Models for Low-Resource Languages" (summa cum laude).
+- Developed novel TF-IDF variants and embedding techniques for low-resource NLP.
+- Built training pipelines using PyTorch distributed across 32 GPUs.
+- Interned at Google Research (2019) working on NLP for Google Translate.
+
+INDUSTRY EXPERIENCE
+-------------------
+ML Engineering Intern | Google Research                       Summer 2019
+- Fine-tuned multilingual BERT models for 10 low-resource languages.
+- Deployed model inference API using Flask and Docker; served 1M+ requests/day.
+- Used Apache Spark for distributed data preprocessing on GCP.
+
+EDUCATION
+---------
+Ph.D. Computer Science (NLP / Machine Learning)
+Carnegie Mellon University, 2021
+
+M.Sc. Computer Science
+Carnegie Mellon University, 2018
+
+B.Sc. Computer Science and Mathematics
+MIT, 2016 — GPA 4.9/5.0
+
+PUBLICATIONS (selected)
+-----------------------
+- "Efficient Distillation of Large Language Models" – NeurIPS 2022
+- "Cross-Lingual Transfer with Minimal Supervision" – ACL 2021
+- "Sparse Attention Mechanisms for Long Documents" – ICML 2023
+
+CERTIFICATIONS & AWARDS
+------------------------
+- Best Paper Award – ACL 2021
+- NSF Graduate Research Fellowship (2017-2021)
+- AWS Machine Learning Hero (2023)

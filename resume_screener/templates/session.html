@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Session {{ session.id }} – ResumeAI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-brand">
+    <span class="nav-icon">⬡</span>
+    <span class="nav-title">ResumeAI</span>
+  </div>
+  <div class="nav-links">
+    <a href="/" class="nav-link">Screen</a>
+    <a href="/history" class="nav-link active">History</a>
+  </div>
+</nav>
+
+<header class="hero" style="padding-bottom:2rem">
+  <div class="hero-badge">Session #{{ session.id }} · {{ session.created_at }}</div>
+  <h1 class="hero-title" style="font-size:2rem">{{ session.job_title }}</h1>
+</header>
+
+<main class="main">
+  <div class="card" style="margin-bottom:2rem">
+    <h3 style="color:var(--accent);margin-bottom:.75rem;font-family:'Space Mono',monospace">Job Description</h3>
+    <p style="color:var(--text-muted);white-space:pre-wrap;font-size:.875rem;line-height:1.7">{{ session.job_desc[:800] }}{% if session.job_desc|length > 800 %}…{% endif %}</p>
+  </div>
+
+  <div class="results-header">
+    <h2>Candidates</h2>
+    <span class="badge">{{ session.candidates|length }} screened</span>
+  </div>
+
+  <div class="table-wrap">
+    <table class="cand-table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Score</th>
+          <th>Match %</th>
+          <th>Tier</th>
+          <th>Matched Keywords</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for c in session.candidates %}
+        <tr>
+          <td class="rank-cell">{{ c.rank }}</td>
+          <td class="name-cell">{{ c.name }}</td>
+          <td class="score-cell">{{ "%.4f"|format(c.score) }}</td>
+          <td>
+            <div class="match-bar-wrap">
+              <div class="match-bar" style="width:{{ c.match_pct }}%"></div>
+              <span class="match-label">{{ c.match_pct }}%</span>
+            </div>
+          </td>
+          <td><span class="tier-badge tier-{{ c.tier|lower }}">{{ c.tier }}</span></td>
+          <td class="kw-cell">
+            {% if c.matched_keywords %}
+              {% for kw in c.matched_keywords[:8] %}
+                <span class="kw-chip">{{ kw }}</span>
+              {% endfor %}
+              {% if c.matched_keywords|length > 8 %}
+                <span class="kw-more">+{{ c.matched_keywords|length - 8 }}</span>
+              {% endif %}
+            {% else %}
+              <span style="color:var(--text-muted)">–</span>
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <a href="/history" class="btn-outline" style="margin-top:2rem;display:inline-flex;width:auto">← Back to History</a>
+</main>
+
+<footer class="footer">Built with Python · Flask · scikit-learn · NLTK</footer>
+</body>
+</html>

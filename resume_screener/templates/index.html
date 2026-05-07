@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ResumeAI – Intelligent Candidate Screening</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+
+<!-- ── NAV ── -->
+<nav class="nav">
+  <div class="nav-brand">
+    <span class="nav-icon">⬡</span>
+    <span class="nav-title">ResumeAI</span>
+  </div>
+  <div class="nav-links">
+    <a href="/" class="nav-link active">Screen</a>
+    <a href="/history" class="nav-link">History</a>
+  </div>
+</nav>
+
+<!-- ── HERO ── -->
+<header class="hero">
+  <div class="hero-badge">AI-Powered · NLP · TF-IDF</div>
+  <h1 class="hero-title">Screen Resumes<br /><em>Intelligently</em></h1>
+  <p class="hero-sub">Upload a job description and multiple resumes. Our NLP engine ranks every candidate by relevance in seconds.</p>
+  <div class="hero-stats">
+    <div class="stat"><span class="stat-num">TF-IDF</span><span class="stat-label">Vectorization</span></div>
+    <div class="stat-divider"></div>
+    <div class="stat"><span class="stat-num">Cosine</span><span class="stat-label">Similarity</span></div>
+    <div class="stat-divider"></div>
+    <div class="stat"><span class="stat-num">SQLite</span><span class="stat-label">Persistence</span></div>
+  </div>
+</header>
+
+<!-- ── MAIN FORM ── -->
+<main class="main">
+  <div class="card form-card">
+    <div class="card-header">
+      <span class="step-badge">01</span>
+      <h2>Job Description</h2>
+    </div>
+
+    <form id="screenForm" enctype="multipart/form-data">
+      <div class="field">
+        <label for="job_title">Position Title</label>
+        <input type="text" id="job_title" name="job_title"
+               placeholder="e.g. Senior Machine Learning Engineer" required />
+      </div>
+
+      <div class="field">
+        <label for="job_description">Paste Job Description</label>
+        <textarea id="job_description" name="job_description" rows="7"
+                  placeholder="Paste the full job description here…"></textarea>
+      </div>
+
+      <div class="divider"><span>or upload a file</span></div>
+
+      <div class="upload-zone" id="jdDropzone">
+        <input type="file" id="job_desc_file" name="job_desc_file"
+               accept=".pdf,.docx" class="upload-input" />
+        <div class="upload-label">
+          <span class="upload-icon">📄</span>
+          <span>Drop JD file here or <u>browse</u></span>
+          <span class="upload-hint">PDF · DOCX</span>
+        </div>
+      </div>
+
+      <!-- Resumes -->
+      <div class="card-header" style="margin-top:2.5rem">
+        <span class="step-badge">02</span>
+        <h2>Upload Resumes</h2>
+      </div>
+
+      <div class="upload-zone resume-zone" id="resumeDropzone">
+        <input type="file" id="resumes" name="resumes" accept=".pdf,.docx"
+               multiple class="upload-input" />
+        <div class="upload-label">
+          <span class="upload-icon">📂</span>
+          <span>Drop resume files here or <u>browse</u></span>
+          <span class="upload-hint">PDF · DOCX · Multiple files supported</span>
+        </div>
+      </div>
+      <div id="fileList" class="file-list"></div>
+
+      <button type="submit" class="btn-primary" id="submitBtn">
+        <span class="btn-icon">⚡</span>
+        Analyse &amp; Rank Candidates
+      </button>
+    </form>
+  </div>
+
+  <!-- ── RESULTS ── -->
+  <div id="results" class="results hidden">
+    <div class="results-header">
+      <h2>Ranked Candidates</h2>
+      <span id="resultsCount" class="badge"></span>
+    </div>
+
+    <div id="chartContainer" class="chart-container hidden">
+      <img id="chartImg" src="" alt="Ranking chart" />
+    </div>
+
+    <div id="candidateTable"></div>
+    <div id="errorList" class="error-list"></div>
+  </div>
+</main>
+
+<!-- ── LOADING OVERLAY ── -->
+<div id="overlay" class="overlay hidden">
+  <div class="spinner-box">
+    <div class="spinner"></div>
+    <p class="spinner-text">Analysing resumes…</p>
+    <p class="spinner-sub">Running NLP pipeline</p>
+  </div>
+</div>
+
+<footer class="footer">
+  Built with Python · Flask · scikit-learn · NLTK
+</footer>
+
+<script src="/static/js/main.js"></script>
+</body>
+</html>

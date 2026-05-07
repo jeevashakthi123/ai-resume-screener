@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Screening History – ResumeAI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-brand">
+    <span class="nav-icon">⬡</span>
+    <span class="nav-title">ResumeAI</span>
+  </div>
+  <div class="nav-links">
+    <a href="/" class="nav-link">Screen</a>
+    <a href="/history" class="nav-link active">History</a>
+  </div>
+</nav>
+
+<header class="hero" style="padding-bottom:2rem">
+  <h1 class="hero-title" style="font-size:2.4rem">Screening History</h1>
+  <p class="hero-sub">All past screening sessions stored in SQLite.</p>
+</header>
+
+<main class="main">
+  {% if sessions %}
+  <div class="session-grid">
+    {% for s in sessions %}
+    <a href="/session/{{ s.id }}" class="session-card">
+      <div class="session-meta">
+        <span class="session-badge">Session #{{ s.id }}</span>
+        <span class="session-date">{{ s.created_at }}</span>
+      </div>
+      <div class="session-title">{{ s.job_title }}</div>
+      <div class="session-count">
+        <span class="count-num">{{ s.candidate_count }}</span>
+        <span class="count-label">candidates screened</span>
+      </div>
+      <span class="session-arrow">→</span>
+    </a>
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="empty-state">
+    <div class="empty-icon">🗂</div>
+    <h3>No sessions yet</h3>
+    <p>Start by screening your first batch of resumes.</p>
+    <a href="/" class="btn-primary" style="display:inline-flex;width:auto">Go to Screener</a>
+  </div>
+  {% endif %}
+</main>
+
+<footer class="footer">Built with Python · Flask · scikit-learn · NLTK</footer>
+</body>
+</html>

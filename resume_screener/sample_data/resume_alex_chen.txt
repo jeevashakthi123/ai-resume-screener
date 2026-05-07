@@ -1,0 +1,61 @@
+ALEX CHEN
+Senior Machine Learning Engineer
+alex.chen@email.com | linkedin.com/in/alexchen | github.com/alexchen
+San Francisco, CA
+
+SUMMARY
+-------
+Senior ML Engineer with 7 years of experience building production-grade machine learning
+systems. Deep expertise in NLP, deep learning, and MLOps. Passionate about transforming
+research into scalable, reliable AI products. Proven track record deploying models that
+serve millions of requests daily on AWS and GCP.
+
+SKILLS
+------
+Programming:   Python (expert), Scala, SQL, Bash
+ML / AI:       TensorFlow, PyTorch, Scikit-learn, Keras, HuggingFace Transformers,
+               BERT, GPT fine-tuning, TF-IDF, Word2Vec, NLP, NER, text classification
+MLOps:         MLflow, Airflow, Kubeflow, Docker, Kubernetes, CI/CD (GitHub Actions)
+Cloud:         AWS (SageMaker, S3, EC2, Lambda), GCP (Vertex AI, BigQuery), Azure
+Data:          Pandas, NumPy, Apache Spark, Hadoop, PostgreSQL, MongoDB, Redis
+Other:         FastAPI, Flask, REST APIs, Git, Agile / Scrum
+
+EXPERIENCE
+----------
+Senior Machine Learning Engineer | DataCore Inc.              2020 – Present
+- Led NLP pipeline development for document classification achieving 94% accuracy.
+- Built end-to-end ML platform using Kubeflow and MLflow reducing model deployment
+  time from 2 weeks to 2 days.
+- Fine-tuned BERT-based models for named entity recognition on legal documents.
+- Designed feature engineering pipelines on Apache Spark processing 5TB of data daily.
+- Mentored a team of 4 junior ML engineers and conducted weekly code reviews.
+- Deployed models via FastAPI on Kubernetes clusters; maintained 99.9% uptime SLA.
+- Implemented A/B testing framework for model comparison; drove 12% revenue uplift.
+
+Machine Learning Engineer | TechSolutions Ltd.                2017 – 2020
+- Developed recommendation system using collaborative filtering and Word2Vec embeddings.
+- Built real-time fraud detection model using scikit-learn and TensorFlow; reduced
+  false positives by 35%.
+- Created data pipelines using Apache Airflow orchestrating 50+ tasks daily.
+- Containerised ML services with Docker; deployed on AWS EC2 and SageMaker.
+- Maintained PostgreSQL and MongoDB databases for feature store.
+
+EDUCATION
+---------
+M.Sc. Computer Science (Machine Learning specialisation)
+Stanford University, 2017 — GPA: 3.9/4.0
+
+B.Sc. Mathematics and Statistics
+UC Berkeley, 2015 — GPA: 3.8/4.0
+
+PROJECTS & OPEN SOURCE
+-----------------------
+- Contributed 200+ commits to Hugging Face Transformers library.
+- Published "Efficient NER with Distilled BERT" at ACL 2022.
+- Maintainer of open-source MLflow plugin for custom model tracking.
+
+CERTIFICATIONS
+--------------
+- AWS Certified Machine Learning – Specialty (2022)
+- Google Professional ML Engineer (2021)
+- Deep Learning Specialisation – Coursera (Andrew Ng), 2019

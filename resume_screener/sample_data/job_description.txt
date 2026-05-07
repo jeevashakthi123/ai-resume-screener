@@ -1,0 +1,57 @@
+Senior Machine Learning Engineer – Job Description
+===================================================
+
+Company: DataVision AI
+Location: Remote / San Francisco, CA
+Type: Full-Time
+
+About the Role
+--------------
+We are looking for a Senior Machine Learning Engineer to join our AI platform team.
+You will design, build, and deploy machine learning systems at scale. You will work
+closely with data scientists, product managers, and backend engineers to bring
+models from research to production.
+
+Responsibilities
+----------------
+- Design and implement scalable ML pipelines using Python and cloud infrastructure.
+- Build and fine-tune NLP models for text classification, named entity recognition,
+  and information extraction tasks.
+- Optimise model performance using techniques such as quantisation, pruning, and
+  knowledge distillation.
+- Deploy models via REST APIs using FastAPI or Flask; manage containers with Docker
+  and Kubernetes.
+- Write clean, testable, production-grade Python code following best practices.
+- Collaborate with data engineers on feature engineering and data pipelines using
+  Apache Spark and Hadoop.
+- Monitor model drift and implement retraining strategies.
+- Mentor junior engineers and contribute to technical roadmap discussions.
+
+Required Skills & Qualifications
+---------------------------------
+- Bachelor's or Master's degree in Computer Science, Statistics, or a related field.
+- 5+ years of professional experience in machine learning or data science.
+- Deep proficiency in Python (NumPy, Pandas, Scikit-learn, TensorFlow or PyTorch).
+- Strong understanding of NLP techniques: TF-IDF, Word2Vec, BERT, transformers.
+- Hands-on experience with MLflow, Airflow, or similar MLOps tools.
+- Experience with SQL and NoSQL databases (PostgreSQL, MongoDB, Redis).
+- Familiarity with AWS (SageMaker, S3, EC2) or GCP (Vertex AI, BigQuery).
+- Proficiency with Docker and Kubernetes for model deployment.
+- Solid understanding of software engineering principles (CI/CD, unit testing, git).
+- Strong problem-solving skills and excellent communication.
+
+Nice to Have
+------------
+- Experience with LLMs (GPT, LLaMA, Mistral) and prompt engineering.
+- Contributions to open-source ML projects.
+- Knowledge of distributed computing frameworks (Spark, Dask).
+- Experience with A/B testing and experimentation frameworks.
+- Publications or presentations at ML conferences (NeurIPS, ICML, ACL).
+
+What We Offer
+-------------
+- Competitive salary: $160,000 – $210,000
+- Remote-first culture with flexible hours
+- Annual learning budget of $3,000
+- Health, dental, and vision insurance
+- Generous equity package

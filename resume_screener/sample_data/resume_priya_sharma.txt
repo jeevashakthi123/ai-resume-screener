@@ -1,0 +1,53 @@
+PRIYA SHARMA
+Machine Learning Engineer
+priya.sharma@email.com | linkedin.com/in/priyasharma
+Austin, TX (Open to Remote)
+
+PROFESSIONAL SUMMARY
+--------------------
+Machine Learning Engineer with 5 years of experience in NLP and computer vision.
+Skilled in Python, PyTorch, and cloud deployment. Experienced in building end-to-end
+ML pipelines and deploying models in production using Docker and AWS.
+
+TECHNICAL SKILLS
+----------------
+Languages:     Python, R, SQL
+ML Frameworks: PyTorch, TensorFlow, Scikit-learn, Hugging Face, NLTK, SpaCy
+NLP:           BERT, GPT-2, TF-IDF, text classification, sentiment analysis,
+               named entity recognition, text summarisation
+Cloud & DevOps: AWS (S3, EC2, SageMaker), Docker, Kubernetes, Git, Jenkins
+Data:          Pandas, NumPy, Apache Spark, PostgreSQL, Redis
+Visualisation: Matplotlib, Seaborn, Tableau
+
+WORK EXPERIENCE
+---------------
+Machine Learning Engineer | InnovateTech                      2021 – Present
+- Developed NLP pipeline for customer support ticket classification (92% accuracy).
+- Built transformer-based text summarisation model using HuggingFace and PyTorch.
+- Deployed models on AWS SageMaker with Docker containers; scaled to 10K req/min.
+- Implemented CI/CD pipeline using Jenkins and GitHub Actions for model deployment.
+- Used MLflow for experiment tracking and model versioning.
+- Collaborated with data engineers on Spark-based feature engineering pipelines.
+- Performed A/B testing to validate model improvements in production.
+
+Junior Data Scientist | Analytics Corp                        2019 – 2021
+- Built predictive models using scikit-learn for churn prediction (AUC 0.87).
+- Performed EDA and feature engineering on large datasets using Pandas and NumPy.
+- Created automated data pipelines using Apache Airflow.
+- Maintained PostgreSQL and MongoDB databases.
+- Visualised insights using Tableau and Matplotlib for stakeholder presentations.
+
+EDUCATION
+---------
+M.Sc. Data Science
+University of Texas at Austin, 2019
+
+B.Sc. Computer Science
+Anna University, Chennai, 2017
+
+CERTIFICATIONS & ACHIEVEMENTS
+------------------------------
+- AWS Certified Solutions Architect – Associate (2022)
+- Kaggle Competition: Top 5% in NLP with Disaster Tweets challenge
+- PyTorch Scholarship by Facebook AI (2020)
+- Speaker at PyData Austin 2023: "Scaling NLP in Production"

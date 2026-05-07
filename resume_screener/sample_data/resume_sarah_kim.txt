@@ -1,0 +1,49 @@
+SARAH KIM
+Frontend Developer
+sarah.kim@email.com | sarahkim.dev
+Seattle, WA
+
+ABOUT ME
+--------
+Creative and detail-oriented Frontend Developer with 3 years of experience building
+responsive web applications. Passionate about great user experiences, accessibility,
+and modern JavaScript frameworks.
+
+SKILLS
+------
+Languages:      JavaScript, TypeScript, HTML5, CSS3, Python (beginner)
+Frameworks:     React, Next.js, Vue.js, Angular
+Styling:        Tailwind CSS, Styled Components, SASS
+Tools:          Git, Webpack, Vite, Figma, Storybook, Jest
+Testing:        Jest, Cypress, React Testing Library
+Other:          REST APIs, GraphQL, Firebase, Vercel, Netlify
+
+EXPERIENCE
+----------
+Frontend Developer | StartupXYZ                               2022 – Present
+- Built responsive React applications with TypeScript for 50K+ daily active users.
+- Implemented design system using Styled Components and Storybook.
+- Integrated REST APIs and GraphQL endpoints from backend services.
+- Improved page load performance by 40% using code splitting and lazy loading.
+- Wrote unit and integration tests using Jest and Cypress; maintained 85% coverage.
+- Collaborated in Agile/Scrum teams using Jira and Figma for design handoff.
+
+Junior Frontend Developer | WebAgency Co.                     2021 – 2022
+- Developed landing pages and marketing sites using HTML, CSS, JavaScript.
+- Built Vue.js components for e-commerce client reducing cart abandonment by 20%.
+
+EDUCATION
+---------
+B.Sc. Information Technology
+University of Washington, 2021
+
+CERTIFICATIONS
+--------------
+- Meta Frontend Developer Professional Certificate (Coursera, 2022)
+- JavaScript Algorithms and Data Structures (freeCodeCamp)
+
+PROJECTS
+--------
+- Personal portfolio site built with Next.js, Tailwind CSS (sarahkim.dev).
+- Open-source component library: 120+ GitHub stars.
+- Built a Chrome extension for productivity tracking using TypeScript.
